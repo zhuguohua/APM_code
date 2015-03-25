@@ -1,0 +1,246 @@
+﻿生成启动时间为 2014/12/10 11:01:24。
+     1>项目“E:\project\DESIGN\DESIGN\Design Texting\APM_code_Text_1\ArduPlane-2.75\ArduPlane\ArduPlane.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\my\Documents\Arduino\libraries\AP_Common /IC:\Users\my\Documents\Arduino\libraries\AP_Common\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Progmem /IC:\Users\my\Documents\Arduino\libraries\AP_Progmem\utility /IC:\Users\my\Documents\Arduino\libraries\AP_HAL /IC:\Users\my\Documents\Arduino\libraries\AP_HAL\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Menu /IC:\Users\my\Documents\Arduino\libraries\AP_Menu\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Param /IC:\Users\my\Documents\Arduino\libraries\AP_Param\utility /IC:\Users\my\Documents\Arduino\libraries\AP_GPS /IC:\Users\my\Documents\Arduino\libraries\AP_GPS\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Baro /IC:\Users\my\Documents\Arduino\libraries\AP_Baro\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Compass /IC:\Users\my\Documents\Arduino\libraries\AP_Compass\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Math /IC:\Users\my\Documents\Arduino\libraries\AP_Math\utility /IC:\Users\my\Documents\Arduino\libraries\AP_ADC /IC:\Users\my\Documents\Arduino\libraries\AP_ADC\utility /IC:\Users\my\Documents\Arduino\libraries\AP_ADC_AnalogSource /IC:\Users\my\Documents\Arduino\libraries\AP_ADC_AnalogSource\utility /IC:\Users\my\Documents\Arduino\libraries\AP_InertialSensor /IC:\Users\my\Documents\Arduino\libraries\AP_InertialSensor\utility /IC:\Users\my\Documents\Arduino\libraries\AP_AHRS /IC:\Users\my\Documents\Arduino\libraries\AP_AHRS\utility /IC:\Users\my\Documents\Arduino\libraries\RC_Channel /IC:\Users\my\Documents\Arduino\libraries\RC_Channel\utility /IC:\Users\my\Documents\Arduino\libraries\AP_RangeFinder /IC:\Users\my\Documents\Arduino\libraries\AP_RangeFinder\utility /IC:\Users\my\Documents\Arduino\libraries\Filter /IC:\Users\my\Documents\Arduino\libraries\Filter\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Buffer /IC:\Users\my\Documents\Arduino\libraries\AP_Buffer\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Relay /IC:\Users\my\Documents\Arduino\libraries\AP_Relay\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Camera /IC:\Users\my\Documents\Arduino\libraries\AP_Camera\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Airspeed /IC:\Users\my\Documents\Arduino\libraries\AP_Airspeed\utility /IC:\Users\my\Documents\Arduino\libraries\memcheck /IC:\Users\my\Documents\Arduino\libraries\memcheck\utility /IC:\Users\my\Documents\Arduino\libraries\APM_OBC /IC:\Users\my\Documents\Arduino\libraries\APM_OBC\utility /IC:\Users\my\Documents\Arduino\libraries\APM_Control /IC:\Users\my\Documents\Arduino\libraries\APM_Control\utility /IC:\Users\my\Documents\Arduino\libraries\GCS_MAVLink /IC:\Users\my\Documents\Arduino\libraries\GCS_MAVLink\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Mount /IC:\Users\my\Documents\Arduino\libraries\AP_Mount\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Declination /IC:\Users\my\Documents\Arduino\libraries\AP_Declination\utility /IC:\Users\my\Documents\Arduino\libraries\DataFlash /IC:\Users\my\Documents\Arduino\libraries\DataFlash\utility /IC:\Users\my\Documents\Arduino\libraries\SITL /IC:\Users\my\Documents\Arduino\libraries\SITL\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Scheduler /IC:\Users\my\Documents\Arduino\libraries\AP_Scheduler\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Navigation /IC:\Users\my\Documents\Arduino\libraries\AP_Navigation\utility /IC:\Users\my\Documents\Arduino\libraries\AP_L1_Control /IC:\Users\my\Documents\Arduino\libraries\AP_L1_Control\utility /IC:\Users\my\Documents\Arduino\libraries\AP_RCMapper /IC:\Users\my\Documents\Arduino\libraries\AP_RCMapper\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Vehicle /IC:\Users\my\Documents\Arduino\libraries\AP_Vehicle\utility /IC:\Users\my\Documents\Arduino\libraries\AP_SpdHgtControl /IC:\Users\my\Documents\Arduino\libraries\AP_SpdHgtControl\utility /IC:\Users\my\Documents\Arduino\libraries\AP_TECS /IC:\Users\my\Documents\Arduino\libraries\AP_TECS\utility /IC:\Users\my\Documents\Arduino\libraries\AP_Notify /IC:\Users\my\Documents\Arduino\libraries\AP_Notify\utility /IC:\Users\my\Documents\Arduino\libraries\AP_BattMonitor /IC:\Users\my\Documents\Arduino\libraries\AP_BattMonitor\utility /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_AVR /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_AVR\utility /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_AVR_SITL /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_AVR_SITL\utility /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_PX4 /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_PX4\utility /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_FLYMAPLE /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_FLYMAPLE\utility /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_Linux /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_Linux\utility /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_Empty /IC:\Users\my\Documents\Arduino\libraries\AP_HAL_Empty\utility /I"F:\Program Files\ArduPilot-Arduino-1.0.3-gcc-4.7.2-windows\ArduPilot-Arduino-1.0.3-windows\libraries" /I"F:\Program Files\ArduPilot-Arduino-1.0.3-gcc-4.7.2-windows\ArduPilot-Arduino-1.0.3-windows\hardware\apm\libraries" /I"C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" /IC:\Users\my\Documents\Arduino\libraries /I"f:\program files\ardupilot-arduino-1.0.3-gcc-4.7.2-windows\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\avr\include\\" /I"f:\program files\ardupilot-arduino-1.0.3-gcc-4.7.2-windows\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\avr\include\avr\\" /I"f:\program files\ardupilot-arduino-1.0.3-gcc-4.7.2-windows\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\avr\\" /I"f:\program files\ardupilot-arduino-1.0.3-gcc-4.7.2-windows\ardupilot-arduino-1.0.3-windows\hardware\tools\avr\lib\gcc\avr\4.3.2\include\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D __AVR_ATmega2560__ /D ARDUINO=101 /D ARDUINO_MAIN /D __AVR__ /D __avr__ /D F_CPU=16000000L /D __cplusplus /D CONFIG_HAL_BOARD=HAL_BOARD_APM2 /D EXCLUDECORE /D _MBCS /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FI"E:\project\DESIGN\DESIGN\Design Texting\APM_code_Text_1\ArduPlane-2.75\ArduPlane\Visual Micro\.ArduPlane.vsarduino.h" /analyze- /errorReport:prompt ASBase.cpp SIM900A_Driver.cpp
+         SIM900A_Driver.cpp
+     1>c1xx : warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(13): warning C4005: “__AVR_ATmega2560__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR_ATmega2560__”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(15): warning C4005: “ARDUINO_MAIN”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_MAIN”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(16): warning C4005: “__AVR__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR__”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(17): warning C4005: “__avr__”: 宏重定义
+                 命令行参数: 参见前面的“__avr__”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(19): warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(21): warning C4005: “EXCLUDECORE”: 宏重定义
+                 命令行参数: 参见前面的“EXCLUDECORE”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(28): warning C4005: “__asm__”: 宏重定义
+                 e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(23) : 参见“__asm__”的前一个定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(46): error C2146: 语法错误: 缺少“;”(在标识符“Check_Aerial_Photo_Rule”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(46): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2065: “uint32_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2146: 语法错误: 缺少“)”(在标识符“i32_timer”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2182: “Do_Air_Speed_Base”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(70): error C2065: “RC_Channel”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(70): error C2065: “channel”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(70): error C2182: “stick_mix_channel”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2065: “int16_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2146: 语法错误: 缺少“)”(在标识符“last_throttle”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2182: “throttle_slew_limit”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(87): error C2146: 语法错误: 缺少“)”(在标识符“mixing_type”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(87): error C2182: “channel_output_mixer”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(87): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(89): error C2146: 语法错误: 缺少“)”(在标识符“i”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(89): error C2182: “demo_servos”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(89): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2182: “send_heartbeat”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2182: “send_attitude”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2182: “send_fence_status”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2182: “send_extended_status1”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2182: “send_meminfo”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2182: “send_location”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2182: “send_nav_controller_output”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2182: “send_gps_raw”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2182: “send_system_time”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2182: “send_servo_out”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2182: “send_radio_in”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2182: “send_radio_out”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2182: “send_vfr_hud”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2182: “send_raw_imu1”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2182: “send_raw_imu2”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2182: “send_raw_imu3”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2182: “send_ahrs”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2182: “send_simstate”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2182: “send_hwstatus”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2182: “send_wind”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): error C2182: “send_current_waypoint”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): fatal error C1003: 错误计数超过 100；正在停止编译
+         ASBase.cpp
+     1>c1xx : warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(13): warning C4005: “__AVR_ATmega2560__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR_ATmega2560__”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(15): warning C4005: “ARDUINO_MAIN”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_MAIN”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(16): warning C4005: “__AVR__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR__”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(17): warning C4005: “__avr__”: 宏重定义
+                 命令行参数: 参见前面的“__avr__”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(19): warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(21): warning C4005: “EXCLUDECORE”: 宏重定义
+                 命令行参数: 参见前面的“EXCLUDECORE”定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(28): warning C4005: “__asm__”: 宏重定义
+                 e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(23) : 参见“__asm__”的前一个定义
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(46): error C2146: 语法错误: 缺少“;”(在标识符“Check_Aerial_Photo_Rule”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(46): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2065: “uint32_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2146: 语法错误: 缺少“)”(在标识符“i32_timer”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2182: “Do_Air_Speed_Base”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(47): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(70): error C2065: “RC_Channel”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(70): error C2065: “channel”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(70): error C2182: “stick_mix_channel”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2065: “int16_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2146: 语法错误: 缺少“)”(在标识符“last_throttle”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2182: “throttle_slew_limit”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(83): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(87): error C2146: 语法错误: 缺少“)”(在标识符“mixing_type”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(87): error C2182: “channel_output_mixer”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(87): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(89): error C2146: 语法错误: 缺少“)”(在标识符“i”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(89): error C2182: “demo_servos”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(89): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2182: “send_heartbeat”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(90): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2182: “send_attitude”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(91): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2182: “send_fence_status”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(92): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2182: “send_extended_status1”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(93): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2182: “send_meminfo”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(94): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2182: “send_location”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(95): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2182: “send_nav_controller_output”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(96): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2182: “send_gps_raw”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(97): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2182: “send_system_time”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(98): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2182: “send_servo_out”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(99): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2182: “send_radio_in”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(100): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2182: “send_radio_out”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(101): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2182: “send_vfr_hud”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(102): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2182: “send_raw_imu1”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(103): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2182: “send_raw_imu2”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(104): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2182: “send_raw_imu3”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(105): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2182: “send_ahrs”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(106): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2182: “send_simstate”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(107): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2182: “send_hwstatus”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(108): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2182: “send_wind”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(109): error C2059: 语法错误:“)”
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): error C2065: “mavlink_channel_t”: 未声明的标识符
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): error C2146: 语法错误: 缺少“)”(在标识符“chan”的前面)
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): error C2182: “send_current_waypoint”: 非法使用“void”类型
+     1>e:\project\design\design\design texting\apm_code_text_1\arduplane-2.75\arduplane\visual micro\.arduplane.vsarduino.h(110): fatal error C1003: 错误计数超过 100；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“E:\project\DESIGN\DESIGN\Design Texting\APM_code_Text_1\ArduPlane-2.75\ArduPlane\ArduPlane.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.99
