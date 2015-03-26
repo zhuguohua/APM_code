@@ -7,6 +7,8 @@
 #define DESTINATION_IP 211.149.208.125
 #define DESTINATION_COM 5990
 
+#define APM_CLIENT_ID 5 //0----127
+
 char const AT_CMD[] 						= {"AT"};
 char const AT_CIPMODE_CMD[] 		= {"AT+CIPMODE=1"};
 char const AT_CIPCCFG_CMD[] 		= {"AT+CIPCCFG=3,2,1000,1"};
@@ -66,6 +68,7 @@ BOOL SIM900A_Init(AP_HAL::UARTDriver *_p_ud_Uart, AP_HAL::Scheduler *_p_sch_Sche
 	sgs_Gprs_State.ui16_First_Connect = 1;
 	sgs_Gprs_State.ui16_Recv_New_Server_Hartbeat = 0;
 	sgs_Gprs_State.ui16_Gprs_Environment_Init = 0;
+	sgs_Gprs_State.ui16IsLoginServer = 0;
 
 	gdps_Gprs_Packet_Info.ui8_Find_E = 0;
 	gdps_Gprs_Packet_Info.ui8_Find_ESC = 0;
@@ -276,6 +279,21 @@ int SIM900A_GPRS_State_Check(void)
 		}
 	}
 	
+	if (sgs_Gprs_State.ui16IsLoginServer == 0)
+	{
+		uint32_t ui32Temp = p_sch_Scheduler->millis() - ui32_Timer_1;
+		SIM900A_Try_Login_Sever(ui32Temp);
+
+		if (ui32Temp > 1000)
+		{
+			ui32_Timer_1 = p_sch_Scheduler->millis();
+			
+		}
+		
+		return 0;
+	}
+
+
 	if (SIM900A_Try_Capture_Gprs_Data_Packet())
 	{
 		if ((sgs_Gprs_State.ui16_Recv_New_Server_Hartbeat))
@@ -320,6 +338,26 @@ int SIM900A_GPRS_State_Check(void)
 
 	return sgs_Gprs_State.ui16_Gprs_Connect_State;
 }
+
+
+BOOL SIM900A_Try_Login_Sever(uint32_t ui32TimeInterval)
+{
+	LOGIN_DATA_TYPE ldt;
+	ldt.ui8_Client_Id = APM_CLIENT_ID;
+	ldt.ui8_Client_Type = APM_CLIENT_TYPE;
+
+	uint32_t *p = (uint32_t *)(&ldt);
+
+	if (ui32TimeInterval > 1000)
+	{
+		SIM900A_Send_Data_Protol(*p, GPRS_DATA_LOGIN);
+	}
+
+	SIM900A_Try_Capture_Gprs_Data_Packet();
+
+	return FALSE;
+}
+
 
 BOOL SIM900A_Try_Gprs_Connect(void)
 {
@@ -625,6 +663,7 @@ P_GPRS_DATA_PACKET_INFO SIM900A_Get_Gprs_Packet_Info(void)
 BOOL SIM900A_Parse_Gprs_Data(void)
 {
 	P_GPRS_DATA_PACKET p_ch_Buff = (P_GPRS_DATA_PACKET)gdps_Gprs_Packet_Info.ch_Gprs_Data_Buff;
+	P_GPRS_LOGIN_DATA_PACKET pLDP;
 
 	switch (p_ch_Buff->ch_Flag)
 	{
@@ -637,6 +676,18 @@ BOOL SIM900A_Parse_Gprs_Data(void)
 		if (p_ch_Buff->ui8_Data[0] == '1')
 		{
 			sgs_Gprs_State.ui16_Station_Hartbeat_State = 2;
+		}
+		break;
+	case GPRS_DATA_LOGIN:
+		sgs_Gprs_State.ui16IsLoginServer = 1;
+		pLDP = (P_GPRS_LOGIN_DATA_PACKET)p_ch_Buff;
+		if (pLDP->ui8_Client_Id == APM_CLIENT_ID)
+		{
+			
+		}
+		else
+		{
+			
 		}
 		break;
 	default:

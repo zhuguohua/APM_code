@@ -41,6 +41,13 @@ typedef int BOOL;
 #define GPRS_SERVER_HARTBEAT_TIMEOUT_MS 10000
 #define GPRS_SERVER_HARTBEAT_TIMEOUT_ALLOW_TIMES 3
 
+typedef enum _CLIENT_TYPE_
+{
+	NO_CLIENT_TYPE = 0,
+	STATION_CLIENT_TYPE,
+	APM_CLIENT_TYPE
+}CLIENT_TYPE, P_CLIENT_TYPE;
+
 typedef struct _GPRS_DATA_PACKET_
 {
 	char ch_Start;
@@ -49,6 +56,26 @@ typedef struct _GPRS_DATA_PACKET_
 	uint16_t ui16_Checksum;
 	char ch_Stop;
 }GPRS_DATA_PACKET, *P_GPRS_DATA_PACKET;
+
+typedef struct _GPRS_LOGIN_DATA_
+{
+	char ch_Start;
+	uint8_t ui8_Data_Flag;
+	// data
+	uint8_t ui8_Client_Id;
+	uint8_t ui8_Client_Type;
+	uint8_t ui8_Reserve[2];
+	// ==============
+	uint16_t ui16_Checksum;
+	char ch_Stop;
+}GPRS_LOGIN_DATA_PACKET, *P_GPRS_LOGIN_DATA_PACKET;
+
+typedef struct _LOGIN_DATA_TYPE_
+{
+	uint8_t ui8_Client_Id;
+	uint8_t ui8_Client_Type;
+	uint8_t ui8_Reserve[2];
+}LOGIN_DATA_TYPE, *P_LOGIN_DATA_TYPE;
 
 typedef struct _GPRS_DATA_PACKET_INFO_
 {
@@ -73,6 +100,8 @@ typedef struct _SIM900A_GPRS_STATE_
 	uint16_t ui16_First_Connect : 1;
 	uint16_t ui16_Recv_New_Server_Hartbeat : 1;
 	uint16_t ui16_Gprs_Environment_Init : 1;
+	uint16_t ui16IsLoginServer : 1;
+	uint16_t ui16Reserve : 15;
 }SIM900A_GPRS_STATE, *P_SIM900A_GPRS_STATE;
 
 enum GPRS_DATA_FLAG
@@ -90,9 +119,11 @@ enum GPRS_DATA_FLAG
 	GPRS_DATA_ALT,//ALTITUDE
 	GPRS_DATA_LAT,
 	GPRS_DATA_LNG,
-	GPRS_DATA_HARTBEAT
+	GPRS_DATA_HARTBEAT,
+	GPRS_DATA_LOGIN,
+	GPRS_DATA_CMD_RTL,
+	GPRS_DATA_CMD_OPEN_UMBRELLA
 };
-
 
 #define MATCH_STRING_MAX	4
 typedef struct _SIM900A_AT_MISSION_
@@ -154,7 +185,7 @@ BOOL SIM900A_Execute_AT_Mission(void);
 SIM900A_AT_MISSION* SIM900A_Get_AT_Mission(void);
 BOOL SIM900A_Try_Gprs_Connect(void);
 int SIM900A_GPRS_State_Check(void);
-
+BOOL SIM900A_Try_Login_Sever(uint32_t ui32TimeInterval);
 
 #define SIM900A_Recv_Cleanup(SIM900A_Read_Func_Addr) \
 for (int _s_r_c_j = 0; _s_r_c_j < 50; _s_r_c_j++)\
